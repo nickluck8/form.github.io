@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, serif; }
+
+.content {
+  width: 60%;
+  margin: 50px auto;
+  box-shadow: 0 5px 1px -2px #bcbcbc; }
+  .content .heading {
+    text-align: center;
+    background-color: #fff;
+    height: 88px;
+    border-top: 2px solid red;
+    position: relative; }
+  .content .inner {
+    background: #f3f3f3;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    font-size: 14px;
+    font-weight: bold; }
+    .content .inner .left {
+      padding: 40px 58px;
+      border-right: 1px solid grey; }
+      .content .inner .left .fb-btn {
+        background: #3e5b96;
+        margin-bottom: 20px;
+        padding: 10px 45px 10px 50px; }
+      .content .inner .left .g-btn {
+        background: red; }
+      .content .inner .left button {
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        border: none;
+        border-radius: 3px;
+        white-space: nowrap;
+        user-select: none;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        position: relative;
+        padding: 10px 50px; }
+        .content .inner .left button i {
+          position: absolute;
+          left: 5px;
+          top: 0;
+          padding: 0 0 0 5px;
+          height: 100%;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center; }
+    .content .inner .right {
+      padding: 40px 58px; }
+      .content .inner .right .wrap {
+        display: block;
+        margin-bottom: 20px; }
+        .content .inner .right .wrap #login {
+          width: 100%; }
+        .content .inner .right .wrap #password {
+          width: 100%; }
+        .content .inner .right .wrap label {
+          display: block;
+          margin-bottom: 5px; }
+      .content .inner .right .check-box {
+        display: inline-block; }
+        .content .inner .right .check-box .checkbox {
+          float: left; }
+      .content .inner .right div {
+        display: flex;
+        margin-top: 24px;
+        justify-content: space-between;
+        align-items: center; }
+        .content .inner .right div .login-btn {
+          background: #252525;
+          border: none;
+          display: inline-block;
+          vertical-align: middle;
+          white-space: nowrap;
+          user-select: none;
+          font-family: 'Open sans', serif;
+          font-weight: bold;
+          text-decoration: none;
+          color: #fff;
+          padding: 14px 30px; }
+        .content .inner .right div a {
+          color: #000; }
+  .content .foot {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    font-size: 18px; }
+    .content .foot p {
+      color: #666666; }
+      .content .foot p a {
+        color: #000;
+        font-weight: bold; }
